@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#029ae6, #029957) fixed no-repeat;
+  height: 100%;
+}
+
+nav {
+  background-color: #798999;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+}
+
+nav a {
+  text-align: center; /* Center the text within the link blocks */
+  padding: 14px 16px; /* Add padding */
+  text-decoration: none;
+  float: right;
+  color: azure;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+nav .logo {
+  display: inline;
+  float: left;
+}
+
+.section-down {
+  background-image: linear-gradient(#0ff8a3, #0998ea);
+  margin: 10px;
+  border-radius: 30px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+.section-up {
+  background-image: linear-gradient(#0998ea, #0ff8a3);
+  margin: 10px;
+  border-radius: 30px;
+  padding: 20px;
+  padding-top: 5px;
+}
+
+#home {
+  padding: 50px 20px 40px 20px;
+  display: inline-flex;
+  width: 100%;
+}
+
+#about-me {
+  padding: 10px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.border {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-image: linear-gradient(#f8cecc, #00eae2);
+  padding-left: 20px;
+  height: auto;
+}
+
+footer {
+  display: block;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: azure;
+}
