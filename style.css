@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #423939;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -47,36 +54,128 @@ nav .logo {
   padding-top: 5px;
 }
 
-#home {
-  padding: 50px 20px 40px 20px;
-  display: inline-flex;
-  width: 100%;
+#home,
+#about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#about-me {
-  padding: 10px;
-  display: inline-flex;
+#home .border div,
+#about-me .border div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#home div img,
+#about-me div img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300;
+}
+
+#education .border {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+#education .border div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#education .border img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
   text-align: center;
   color: black;
   font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
 }
 
-.border {
+.border,
+.project {
   border-radius: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  background-image: linear-gradient(#f8cecc, #00eae2);
+  background-color: aliceblue;
   padding-left: 20px;
   height: auto;
+  margin: 10px;
+}
+
+.job {
+  display: flex;
+  align-items: top;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: aliceblue;
+  padding-left: 20px;
+  height: auto;
+  margin: 10px;
+}
+
+.job img {
+  margin: 10px;
+}
+
+.job p {
+  margin-bottom: 10px;
+}
+
+#projects {
+  text-align: center;
+}
+
+#projects h1 {
+  color: #333;
+}
+
+#projects div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project {
+  border-radius: 10%;
+  min-width: 400px;
+  max-width: 40%;
+  height: 300px;
+  margin: 10px;
+  background-color: #f5f5f5;
+}
+
+.project .content {
+  padding: 10px;
+}
+
+.project p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project span.icon {
+  font-size: 40px;
+  display: flex;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: outside;
+  padding-left: 20px;
+  margin: 10px;
+  line-height: ;
 }
 
 footer {
   display: block;
-  color: white;
+  color: white !important;
   background-color: black;
   text-align: center;
 }
