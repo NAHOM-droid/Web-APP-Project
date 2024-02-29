@@ -4,35 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="images/logo.png" />
     <title>Nahom Demoz Portfolio</title>
   </head>
   <body>
-    <nav>
-      <div>
+      <nav>
         <a href="#published-papers">Published-Papers</a>
         <a href="#blogs">Blogs</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#about-me">About-Me</a>
-        <a class="logo" href="#">Nahom Demoz</a>
-      </div>
-    </nav>
-<section>
+        <a class="logo" href="#home">Nahom Demoz</a>
+      </nav>
+
     <div class="section-down" id="home">
       <div><img src="images\Nahom_Demoz.jpg" alt="My Image" /></div>
       <div class="border">
+        <h2>Nahom H. Demoz</h2>
+        <h3>Software Engineer</h3>
         <p>
-          Welcome to my page. I am a Software Developer with great industry
-          experience and excellent communication, problem solving skills. 
+         <em> Languages:</em> Java, C++, Python, SQL, JavaScript <br>
+          <em>Platforms: </em>Windows, Mac, Linux. <br>
+          <em>Cloud:</em> AWS(DevOps) <br>
+          Lorem ipsum dolor sit amet, consectetur <br>
+          adipiscing elit, sed do eiusmod tempor <br>
+          incididunt ut labore et dolore magna aliqua. <br>
+          Ut enim ad minim veniam, quis nostrud exercitation <br>
+          Lorem ipsum dolor sit amet, consectetur <br>
         </p>
       </div>
     </div>
-    </section>
-    <section><div class="section-up">
+    
+    <div class="section-up">
       <h1>About Me</h1>
       <div id="about-me">
+         <!-- <div><img src="images\programming.jpg" alt="My workspace" /></div>
+       -->
       <div class="border">
         <p>
           A dynamic and driven AWS Certified Software Developer with over five
@@ -47,14 +56,15 @@
           staying up to date with industry trends and best practices.
         </p>
         </div>
-        <div><img src="images\programming.jpg" alt="My workspace" /></div>
-      
+       
       </div>
-    </div></section>
-    <section><div class="section-down" id="education">
+    </div>
+    <div class="section-down" id="education">
       <h1>Education</h1>
       <div class="border">
-        <div>
+        <img src="images/unh_logo.jpg" alt="University of New Haven LOGO" />
+      
+        <div class="uni">
           <h3>Master of Science in Computer Science, Jan 2023 - May 2024</h3>
           <ul>
             <li>University of New Haven, West Haven, Connecticut.</li>
@@ -67,13 +77,13 @@
           </ul>
         </div>
 
-        <div>
-          <img src="images/unh_logo.jpg" alt="University of New Haven LOGO" />
-        </div>
+        
       </div>
 
       <div class="border">
-        <div>
+        <img src="images/uaeu_logo.jpg" alt="UAEU LOGO" />
+
+        <div class="uni">
           <h3>
             Bachelor of Science in Computer Engineering, Jan 2019 - Dec 2022
           </h3>
@@ -91,14 +101,14 @@
             </li>
           </ul>
         </div>
-        <div><img src="images/uaeu_logo.jpg" alt="UAEU LOGO" /></div>
+        
       </div>
-    </div></section>
-    <section><div class="section-up" id="experience">
+    </div>
+    <div class="section-up" id="experience">
       <h1>Professional Experience</h1>
       
         <div class="job">
-          <div><img src="images/test.jpg" width="100" height="100" alt="test" /></div>
+          <img src="images/test.jpg" width="100" height="100" alt="test" />
           <div>
             <p>
               <h3>Graduate Research Assistant</h3>University of
@@ -121,7 +131,7 @@
         </div>
 
         <div class="job">
-          <div><img src="images/test.jpg" width="100" height="100" alt="test" /></div>
+          <img src="images/test.jpg" width="100" height="100" alt="test" />
           <div>
             <p>
               <h3>Full Stack Java Developer</h3>Selam Tech -
@@ -148,7 +158,7 @@
         </div>
 
         <div class="job">
-          <div><img src="images/test.jpg" width="100" height="100" alt="test" /></div>
+          <img src="images/test.jpg" width="100" height="100" alt="test" />
           <div>
             <p>
               <h3>Software Engineering Intern</h3>Division of
@@ -177,26 +187,25 @@
             </ul>
           </div>
         </div>
-      <br><br><br>
-      <div id="projects">
+      </div><div>
+      <div class="section-down" id="projects">
         <h1>Personal Projects</h1>
         <div >
-          <article class="project">
-            <span class="icon solid fa-laptop-code"></span>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
             <div class="content">
               <h3>Shopping Cart Management System</h3>
               <p>
                 Created backend enterprise application with high scalability to
                 manage online shopping, shopping cart, customers and orders.
-                Designed application using trending Microservice architecture.
                 Technologies Used: Java, Spring Boot, Hibernate, MongoDB,
                 Microservice Architecture, JMS, Kafka, Zipkin, ELK Stack,
                 Docker, CI / CD, Spring Security / JWT, IntelliJ.
               </p>
             </div>
-          </article>
-          <article class="project">
-            <span class="icon solid fa-laptop-code"></span>
+          </div>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
             <div class="content">
               <h3>Online Shopping System</h3>
               <p>
@@ -206,9 +215,9 @@
                 Swagger, Git, JWT Security.
               </p>
             </div>
-          </article>
-          <article class="project">
-            <span class="icon solid fa-envelope"></span>
+          </div>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
             <div class="content">
               <h3>Messaging API</h3>
               <p>
@@ -217,9 +226,9 @@
                 Spring Boot, Kafka, AMQP, RabbitMQ, Git, IntelliJ.
               </p>
             </div>
-          </article>
-          <article class="project">
-            <span class="icon solid fa-gamepad"></span>
+          </div>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
             <div class="content">
               <h3>C++ Can’t Stop Game</h3>
               <p>
@@ -227,9 +236,9 @@
                 multiplayer game. Technologies Used: C++, Eclipse, sockets, Git.
               </p>
             </div>
-          </article>
-          <article class="project">
-            <span class="icon solid fa-robot"></span>
+          </div>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
             <div class="content">
               <h3>Traffic Sign Detection and Recognition</h3>
               <p>
@@ -239,63 +248,68 @@
                 Python, YOLOv5, AWS, OpenCV
               </p>
             </div>
-          </article>
+          </div>
+          <div class="project">
+            <img src="images/pro.jpg" alt="project photo">
+            <div class="content">
+              <h3>Traffic Sign Detection and Recognition</h3>
+              <p>
+                Created mobile application to handle live video and recognize
+                the traffic sign and give the output to the end use via text or
+                voice sounds image recognition technologies. Technologies Used:
+                Python, YOLOv5, AWS, OpenCV
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div></section>
-    <section><div class="section-down" id="blogs">
+    </div>
+    <div class="section-down" id="blogs">
       <h1>Blogs</h1>
        <article class="border">
-            <span class="icon solid fa-robot"></span>
+            <img src="images/blogs.webp" alt="Blog photo">
             <div class="content">
-              <h3>Traffic Sign Detection and Recognition</h3>
+              <h3>Lorem Ipsum</h3>
               <p>
-                Created mobile application to handle live video and recognize
-                the traffic sign and give the output to the end use via text or
-                voice sounds image recognition technologies. Technologies Used:
-                Python, YOLOv5, AWS, OpenCV
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+       </article>
+        <article class="border">
+            <img src="images/blogs.webp" alt="Blog photo">
+            <div class="content">
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+        </article>
+          <article class="border">
+            <img src="images/blogs.webp" alt="Blog photo">
+            <div class="content">
+              <h3>Lorem Ipsum</h3>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
               </p>
             </div>
           </article>
-           <article class="border">
-            <span class="icon solid fa-robot"></span>
-            <div class="content">
-              <h3>Traffic Sign Detection and Recognition</h3>
-              <p>
-                Created mobile application to handle live video and recognize
-                the traffic sign and give the output to the end use via text or
-                voice sounds image recognition technologies. Technologies Used:
-                Python, YOLOv5, AWS, OpenCV
-              </p>
-            </div>
-          </article>
-           <article class="border">
-            <span class="icon solid fa-robot"></span>
-            <div class="content">
-              <h3>Traffic Sign Detection and Recognition</h3>
-              <p>
-                Created mobile application to handle live video and recognize
-                the traffic sign and give the output to the end use via text or
-                voice sounds image recognition technologies. Technologies Used:
-                Python, YOLOv5, AWS, OpenCV
-              </p>
-            </div>
-          </article>
-    </div></section>
-    <section><div class="section-up" id="published-papers">
+    </div>
+    <div class="section-up" id="published-papers">
       <h1>Published Papers</h1>
-       <div>
         <article class="border">
             <div >
               <h3 class="paper-title">Real-time Road Signs Detection and Recognition for Enhanced Road Safety</h3>
               <p>
-                Road sign detection and recognition play a critical role in improving driver safety and awareness in the modern traffic era. This paper describes the development and evaluation of a Road Sign Detection and Recognition System (RSDRS). Our system leverages computer vision techniques and mobile application technology to provide drivers with real-time visual and auditory feedback based on detected traffic signs. The implementation of RSDRS involves two basic phases: developing a robust recognition model and creating an Android application. The model, trained with the German Traffic Sign Recognition Benchmark (GTSRB) dataset and the YOLOv5s object detection algorithm, serves as the core component for accurate traffic sign recognition. The Android application captures live video frames, integrates seamlessly with the recognition model, and provides intuitive feedback to the driver. The performance evaluation reveals the exceptional capabilities of our system, with an average accuracy of 99.3% and a fast response time of 0.73 milliseconds. Metrics such as recall, precision, and F1 score highlight the model’s ability to maintain accuracy while minimizing false positives. Real-world applicability is paramount, and our system excels in a variety of environments and lighting conditions, as evidenced by rigorous testing. 
+                Road sign detection and recognition play a critical role in improving driver safety and awareness in the modern traffic era. This paper describes the development and evaluation of a Road Sign Detection and Recognition System (RSDRS). Our system leverages computer vision techniques and mobile application technology to provide drivers with real-time visual and auditory feedback based on detected traffic signs. 
               </p>
-            </div>
-          </article>
           <button class="read-more"><a href="https://ieeexplore.ieee.org/document/10366480">Read More</a></button>
-       </div>
-       <div>
+
+            </div>
+        </article>
         <article class="border">
             <div >
               <h3 class="paper-title">Data-Driven Approach to Identify Connectivity and Bus Stop Importance in Transit Network</h3>
@@ -305,26 +319,29 @@
                 This paper provides a comprehensive exploration
                 strategy as initial investigation to existing urban transit systems.
                 Limited to downtown New Haven area, the study focuses on
-                the bus stop and usage based on average ridership values. By
-                identifying high density traffic stops and understanding route
-                specific trends, the results can enable efficient resource allocation
-                and quick-win solutions. While rooted in New Haven, the study
-                demonstrate scalability and offer transferable strategies for
-                urban centers. The findings contribute to the broader discourse
-                on urban mobility and transit optimization.
+                the bus stop and usage based on average ridership values.
               </p>
+              <button class="read-more"><a href="https://ieeexplore.ieee.org/document/10427841">Read More</a></button>
             </div>
-          </article>
-          <button class="read-more"><a href="https://ieeexplore.ieee.org/document/10427841">Read More</a></button>
-       </div>
-    </div></section>
+        </article>
+    </div>
     <footer>
       <div>
         <p>Get In Touch</p>
+        <br>
         <a href="mailto:nahomhagos29@gmail.com">
           Email: nahomhagos29@gmail.com</a>
-          <br><br><br>
+          <br>
+          <br>
+          <div>
+            <a href="https://www.github.com">GitHub</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+          </div>
+          <br>
       </div>
     </footer>
+  
   </body>
 </html>
