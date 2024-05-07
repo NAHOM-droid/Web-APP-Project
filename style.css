@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 #home img {
-  max-width: 90%;
+  min-width: 90%;
 }
 
 #about-me {
